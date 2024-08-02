@@ -1,0 +1,22 @@
+{
+    "posts": [
+        {
+            "id":"1ab",
+            "title": "How to learn JavaScript?",
+            "content": "Start with the basics and practice coding.",
+            "author": "Alice"
+        },
+        {
+            "id":"123b",
+            "title": "What is Node.js?",
+            "content": "Node.js is a runtime environment for executing JavaScript outside the browser.",
+            "author": "Bob"
+        },
+        {
+            "id":"1a6",
+            "title": "Best practices for web development",
+            "content": "Always keep your code clean and use version control.",
+            "author": "Charlie"
+        }
+    ]
+}

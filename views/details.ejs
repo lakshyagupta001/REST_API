@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post Details</title>
+    <link rel="stylesheet" href="/details.css"> <!-- Link to your CSS file -->
+</head>
+
+<body>
+    <h1>Post Details</h1>
+
+    <div class="post">
+        <div class="post-id"><%= post.id %></div>
+        <div class="post-title"><%= post.title %></div>
+        <div class="post-content"><%= post.content %></div>
+        <div class="post-author">Author: <%= post.author %></div>
+    </div>
+
+    <!-- Link to go back to the list of posts -->
+    <div class="button-container">
+        <a href="/posts">Back to Posts</a>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!DOCTYPE html>
+    <html>
+
+    <head>
+        <title>All Posts</title>
+        <link rel="stylesheet" href="/posts.css">
+    </head>
+
+    <body>
+        <h1>All Posts</h1>
+        <div class="posts">
+            <div class="posts">
+                <% posts.forEach(post=> { %>
+                    <div class="post">
+                        <div class="post-title">
+                            <%= post.title %>
+                        </div>
+                        <div class="post-content">
+                            <%= post.content %>
+                        </div>
+                        <div class="post-author">Author: <%= post.author %>
+                        </div>
+                        <a href="/posts/<%= post.id %>" class="view-button">View Post</a>
+                        <a href="/posts/<%= post.id %>/edit" class="view-button">Edit</a>
+                        <form class="form-margin" method="POST" action="/posts/<%= post.id %>?_method=DELETE">
+                            <input type="submit" class="view-button" value="Delete">
+                        </form>
+                    </div>
+                    <% }); %>
+            </div>
+        </div>
+        <button class="button-container">
+            <a href="/posts/add">Add a new post</a>
+        </button>
+    </body>
+
+    </html>
+
+</body>
+
+</html>

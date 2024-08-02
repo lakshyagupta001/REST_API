@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+}
+h1 {
+    text-align: center;
+}
+.post {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 20px 0;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.post-title {
+    margin: 0 0 10px;
+    font-size: 24px;
+    font-weight: bold;
+}
+.post-content {
+    margin: 0 0 15px;
+    font-size: 16px;
+}
+.post-author {
+    color: #555;
+    font-size: 14px;
+}
+.button-container {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.button-container:hover {
+    background-color: #0056b3;
+}
+
+.view-button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 15px; /* Added horizontal padding */
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px; /* Adjusted font size */
+    text-decoration: none; /* Remove underline from link if used inside an <a> tag */
+    display: inline-block; /* Ensure button size adjusts based on content */
+    text-align: center; /* Center text within button */
+}
+
+.view-button:hover {
+    background-color: #218838;
+}
+
+.form-margin {
+    margin-top: 10px; /* Adjust this value to control the margin */
+}

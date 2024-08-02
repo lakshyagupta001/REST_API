@@ -1,0 +1,17 @@
+A REST API (Representational State Transfer Application Programming Interface) is a set of rules and conventions for building and interacting with web services. It uses standard HTTP methods and status codes to allow communication between client and server systems. Here are some key aspects of REST APIs:
+
+Stateless: Each request from a client to a server must contain all the information needed to understand and process the request. The server does not store any information about the state of the client session between requests.
+
+Resource-Oriented: REST APIs are based on resources, which can be anything from data objects to services. Each resource is identified by a URL (Uniform Resource Locator). For example, a resource representing a user might be accessible at http://example.com/api/users/1.
+
+HTTP Methods: REST APIs use standard HTTP methods to perform operations on resources:
+
+GET: Retrieve data from the server (e.g., fetch a list of users).
+POST: Send data to the server to create a new resource (e.g., create a new user).
+PUT: Update an existing resource with new data (e.g., update user details).
+DELETE: Remove a resource from the server (e.g., delete a user).
+Stateless Communication: Each request from a client to a server must contain all the information the server needs to understand and process the request. The server doesn't store any session information about the client.
+
+Standard Responses: REST APIs typically use standard HTTP status codes to indicate the success or failure of a request (e.g., 200 OK, 404 Not Found, 500 Internal Server Error).
+
+Data Format: REST APIs often use JSON (JavaScript Object Notation) for data exchange because it's lightweight and easy to read. However, XML or other formats can also be used.
