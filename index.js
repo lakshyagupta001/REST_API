@@ -2,7 +2,7 @@ const express = require("express");
 const path = require("path");
 const postsData = require("./data")
 const methodOverride = require("method-override");
-const { v4: uuidv4 } = require('uuid');
+const { v4: uuidv4 } = require('uuid');//give unique id
 
 posts = postsData.posts;
 const app = express();
